@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+  font-family: mustica;
+  src: url(../public/MusticaPro-SemiBold.otf);
+}
+.mustica {
+  font-family: mustica;
+}
+
+.signupbg{
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wavebg{
+  background-image: url(../public/assests/Background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
